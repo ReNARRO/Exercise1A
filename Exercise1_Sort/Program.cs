@@ -76,8 +76,11 @@ namespace Exercise1_Sort
                        ed = i ;
                     }                  
                 }
+                //memindahan min indeks ke tempat kosong
                 temp = dewo[ed];
+                //memindahkan nilai terkecil ke min indeks
                 dewo[ed] = dewo[j];
+                //memindahkan tempat kosong ke array kosong
                 dewo[j] = temp;
             }
         }
